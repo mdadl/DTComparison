@@ -1,5 +1,5 @@
 # DTComparison
-This is a standalone CLI PHP application to do special DateTime comparison.
+This is a standalone CLI PHP application to do a special DateTime comparison.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your machine.
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your mac
 You need the following software as a minimum to run this application.
 
 ```
-PHP Version 5.6
+PHP 5.6
 ```
 If you are about to run the test suites then you need the following software as well.
 
