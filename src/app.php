@@ -13,7 +13,7 @@ $supported_return_types = array("days"=>"days", "y"=>"years", "h"=>"hours", "i"=
 
 if (sizeof($_SERVER['argv']) < 4 || sizeof($_SERVER['argv']) > 6) {
     echo "Argument mismatch\n";
-    echo "Correct sytax: function_name datetime1 datetime2 [return_type [timezone]]\n";
+    echo "Correct syntax: function_name datetime1 datetime2 [return_type [timezone]]\n";
     echo $util->supported_functions($supported_functions);
     echo $util->supported_return_type($supported_return_types);
     exit;
