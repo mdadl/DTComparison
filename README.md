@@ -63,7 +63,7 @@ A whole calendar month minus one second
 A whole inverted calendar month
 A whole calendar year
 A whole calendar leap year
-Daylight savings in Adelaide
+Daylight savings in Adelaide 
 
 number_of_weekdays:
 A whole calendar month
