@@ -45,6 +45,11 @@ class DateUtilTest extends TestCase {
         // A whole calendar leap year
         $this->assertEquals(366*24, $this->date_util->number_of_days(
             new DateTime("2012-01-01 00:00:00"), new DateTime("2013-01-01 00:00:00"), "h"));
+        // Daylight savings in Adelaide
+        date_default_timezone_set("Australia/Adelaide");
+        $this->assertEquals(5, $this->date_util->number_of_days(
+            new DateTime("2018-04-01 00:00:00"), new DateTime("2018-04-01 04:00:00"), "h"));
+        date_default_timezone_set("UTC");
     }
     
     public function testnumber_of_weekdays() {
